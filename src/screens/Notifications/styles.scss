@@ -1,0 +1,15 @@
+@import "../../styles/index.scss";
+
+.notifications-container {
+  background-color: $white;
+  height: 50vh;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .notifications-container {
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+}
