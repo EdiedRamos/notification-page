@@ -1,0 +1,8 @@
+export const ACTIONS = {
+  REACTON: "REACTION",
+  FOLLOW: "FOLLOW",
+  JOIN: "JOIN",
+  MESSAGE: "MESSAGE",
+  COMMENT: "COMMENT",
+  LEFT: "LEFT",
+};

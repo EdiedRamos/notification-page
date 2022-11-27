@@ -1,11 +1,12 @@
-@import "_colors";
-@import "_fonts";
+@import "colors";
+@import "fonts";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: $plus-jakarta;
-  font-size: 1rem;
+  font-size: $font-size;
   background-color: $very-light-grayish-blue;
+  transition: all 1s;
 }
