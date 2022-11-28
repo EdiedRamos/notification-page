@@ -6,9 +6,52 @@
   margin: 1rem 0;
   background-color: $white;
   border-radius: 8px;
+  display: flex;
 
   * {
     background-color: $white;
+  }
+
+  .member-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+
+  .action-time {
+    color: $grayish-blue;
+  }
+
+  .action-content {
+    color: $dark-grayish-blue;
+  }
+
+  .message {
+    color: $dark-grayish-blue;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 8px;
+    border: 1px solid $light-grayish-blue-1;
+  }
+
+  .message:hover {
+    background-color: $light-grayish-blue-2;
+    border: 1px solid $light-grayish-blue-2;
+    cursor: pointer;
+  }
+
+  .image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .image:hover {
+    cursor: pointer;
+  }
+
+  .notification-group {
+    display: flex;
+    justify-content: space-between;
   }
 
   .no-read::after {
@@ -20,6 +63,21 @@
     border-radius: 50%;
     position: absolute;
     margin: $size 0 0 5px;
+  }
+
+  .member-name,
+  .action-context {
+    font-weight: bold;
+  }
+
+  .action-context {
+    color: $dark-grayish-blue;
+  }
+
+  .member-name:hover,
+  .action-context:hover {
+    cursor: pointer;
+    color: $blue;
   }
 }
 

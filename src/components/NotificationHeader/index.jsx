@@ -10,7 +10,9 @@ export const NotificationHeader = ({ notificationQuantity = 0, setRead }) => {
       <h1>
         Notifications <span>{notificationQuantity}</span>
       </h1>
-      <button onClick={handleRead}>Mark all as read</button>
+      <button style={{ fontSize: "1rem" }} onClick={handleRead}>
+        Mark all as read
+      </button>
     </div>
   );
 };

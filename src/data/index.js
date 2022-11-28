@@ -37,6 +37,7 @@ export const data = [
     action: ACTIONS.JOIN,
     actionContent: "has joined your group",
     actionContext: "Chess Club",
+    actionTime: "1 day ago",
     read: false,
   },
   {
@@ -47,6 +48,7 @@ export const data = [
     actionContent: "sent you a private message",
     actionContext:
       "Hellow, thanks for setting up the Chess Club.I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    actionTime: "5 days ago",
     read: true,
   },
   {
